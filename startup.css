@@ -1,0 +1,38 @@
+body {
+	background-image: url('header.jpg');
+	background-size: cover;
+
+}
+
+.btn-primary{
+}
+
+.startupbtn {
+	padding:8px;
+	border-radius:6px;
+	border-style:none;
+	color:white;
+	background-color:rgba(0,120,245,1);
+	display:flex;
+	position: fixed;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, 0);
+
+}
+.title {
+ 	position: fixed;
+ 	font-size:2em;
+    left: 50%;
+    top:50%;
+    color:white;
+    background-color:rgba(0,0,0,0.8);
+    transform: translate(-50%, 0)
+
+
+
+
+}
+.startupbtn:hover{
+	background-color:rgba(0,120,200,1);
+}
